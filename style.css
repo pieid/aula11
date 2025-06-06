@@ -59,7 +59,7 @@ input:focus{
 
 /* pseudo elementos : insere o estiliza elementos */
 p::after{
-    content: "" ;
+    content: "oi" ;
     font-size: 10px;
     color: rgb(220, 220, 220);
 }
