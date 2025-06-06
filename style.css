@@ -1,0 +1,76 @@
+body{
+background-image: url();
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin: auto;
+
+
+}
+h1{
+text-align: center;
+font-size: 80px;
+
+}
+#pai{
+    border: 3px solid rgb(251, 255, 0);
+    padding: 5px;
+}
+.filho{
+    border: 3px solid rgb(72, 0, 255);
+    padding: 5px;
+}
+.neto{
+    border: 3px solid rgb(255, 0, 0);
+    padding: 5px;
+}
+
+/* seletor de descendentes (todos vieram do pai */
+/* #pai p{
+    background-color: lightcyan;
+} */
+
+/* filho direto (so filhos) */
+/* #pai > p{
+    background-color: red;
+    border: 3px solid green;
+} */
+.filho > p{
+    background-color: rgb(255, 255, 255);
+}
+
+/* pseudo classes */
+p:hover{
+    background-color: rgb(25, 42, 151);
+}
+#pai > p{
+    background-color: rgb(255, 242, 0);
+    border: 3px solid rgb(0, 11, 128);
+    text-align: center;
+}
+#pai > p:hover{
+    background-color: red;
+    border: 3px solid green;
+}
+input:focus{
+    border: 3px solid green;
+    background-color: yellow;
+}
+
+/* pseudo elementos : insere o estiliza elementos */
+p::after{
+    content: "" ;
+    font-size: 10px;
+    color: rgb(220, 220, 220);
+}
+p::before{
+    content: "" ;
+    font-size: 10px;
+    color: rgb(220, 220, 220);
+}
+/* conteudo selecionado */
+::selection{
+    background-color: rgb(255, 242, 0;
+    color: rgb(0, 11, 128);
+
+}
