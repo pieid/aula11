@@ -70,7 +70,7 @@ p::before{
 }
 /* conteudo selecionado */
 ::selection{
-    background-color: rgb(255, 242, 0;
+    background-color: rgb(255, 242, 0);
     color: rgb(0, 11, 128);
 
 }
